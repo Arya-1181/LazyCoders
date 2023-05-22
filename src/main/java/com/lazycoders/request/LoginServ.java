@@ -31,7 +31,23 @@ public class LoginServ extends HttpServlet {
 		String email = request.getParameter("uemail");
         String password = request.getParameter("upwd");
         PrintWriter out = response.getWriter();
+
+
+
+
+
+
+
+
+
+
         String sql = "SELECT * FROM lazy.check WHERE uemail=? AND upwd=?";
+
+
+
+
+
+
         try {
             Class.forName(DB_DRIVER);
             Connection conn = DriverManager.getConnection(DB_CONNECTION, DB_USER, DB_PASSWORD);
