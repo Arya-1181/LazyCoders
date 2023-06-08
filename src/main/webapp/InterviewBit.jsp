@@ -100,8 +100,7 @@ ul li {
 
 					</ul>
 
-					<a href="ticket.html" class="btn custom-btn d-lg-block d-none">Buy
-						Ticket</a>
+					<a href="Login.jsp" class="btn custom-btn d-lg-block d-none">Login</a>
 				</div>
 			</div>
 		</nav>

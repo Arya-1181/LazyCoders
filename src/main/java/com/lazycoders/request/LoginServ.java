@@ -1,7 +1,6 @@
 package com.lazycoders.request;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -23,14 +22,13 @@ import javax.servlet.http.HttpSession;
 public class LoginServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private static final String DB_DRIVER = "com.mysql.jdbc.Driver";
-    private static final String DB_CONNECTION = "jdbc:mysql://localhost:3306/lazy?useSSL=false";
+    private static final String DB_CONNECTION = "jdbc:mysql://localhost:3306/lazy";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "komradevalerylegasov";
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String email = request.getParameter("uemail");
         String password = request.getParameter("upwd");
-        PrintWriter out = response.getWriter();
         String sql = "SELECT * FROM lazy.check WHERE uemail=? AND upwd=?";
         try {
             Class.forName(DB_DRIVER);

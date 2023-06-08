@@ -38,7 +38,7 @@ p {
 
 		<pre class="line-numbers language-java">
     <code>
-#include <bits/stdc++.h>
+#include "bits/stdc++.h"
 
 using namespace std;
 
@@ -46,7 +46,7 @@ int main(){
     vector <int> v;
     int n;
     cin>>n;
-    for (int i=0; i<n; i++){
+    for (int i=0; i<n>; i++){
         int a;
         cin>>a;
         v.push_back(a);
@@ -58,9 +58,9 @@ int main(){
         copy=v;
         int flag=0;
         int s1,s2;
-        for (int i=0; i<n-1; i++){
+        for (int i=0; i<n-1>; i++){
             if (v[i]>v[i+1]){
-                for (int j=i+1; j<n-1; j++){
+                for (int j=i+1; j<n-1>; j++){
                     if (v[j]>v[j+1]){
                         int temp=v[i];
                         v[i]=v[j+1];

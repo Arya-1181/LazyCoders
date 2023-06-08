@@ -111,14 +111,14 @@
 
 											<div class="form-outline mb-4">
 												<input type="email" id="uemail" name="uemail"
-													class="form-control form-control-lg" /> <label
-													class="form-label" for="uemail">Email address</label>
+													class="form-control form-control-lg" placeholder="Email"/> <label
+													class="form-label" for="uemail"></label>
 											</div>
 
 											<div class="form-outline mb-4">
 												<input type="password" id="upwd" name="upwd"
-													class="form-control form-control-lg" /> <label
-													class="form-label" for="upwd">Password</label>
+													class="form-control form-control-lg" placeholder="Password"/> <label
+													class="form-label" for="upwd"></label>
 											</div>
 
 											<div class="pt-1 mb-4">
@@ -126,8 +126,8 @@
 											</div>
 
 											<a class="small text-muted" href="#!">Forgot password?</a>
-											<p class="mb-5 pb-lg-2" style="color: #393f81;">
-												Don't have an account? <a href="Register.jsp" style="color: #393f81;">Register
+											<p class="mb-5 pb-lg-2" style="color: #000000;">
+												Don't have an account? <a href="Register.jsp" style="color: #393f86; type: bold">Register
 													here</a>
 											</p>
 											<a href="#!" class="small text-muted">Terms of use.</a> <a

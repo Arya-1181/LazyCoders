@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/RegisterServ")
+@WebServlet("/register")
 public class RegisterServ extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -27,7 +27,7 @@ public class RegisterServ extends HttpServlet {
 		String uemail = request.getParameter("uemail");
 		String upwd = request.getParameter("upwd");
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName("com.mysql.jdbc.Driver");
 			String url = "jdbc:mysql://localhost:3306/lazy?useSSL=false";
 			String username = "root";
 			String password = "komradevalerylegasov";

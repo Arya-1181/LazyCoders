@@ -12,7 +12,12 @@
 
 <title>LazyCoderz - Bootstrap 5 CSS Template</title>
 
-<!-- CSS FILES -->
+<!-- CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,8 +34,22 @@
 
 <style>
 .navbar-bg-navy {
-  background-color: #09091B;
+	background-color: #09091B;
 }
+.dropdown-menu {
+    background-color: #09091B;
+}
+
+.dropdown-item {
+    color: #FFFAFA; /* Change the text color on hover */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #ffc107; /* Change the background color on hover and focus */
+    color: #FF4500; /* Change the text color on hover and focus */
+}
+
 </style>
 
 </head>
@@ -79,13 +98,23 @@
 							href="Geeks.jsp">GeeksForGeeks Solutions</a></li>
 
 						<li class="nav-item"><a class="nav-link click-scroll"
-							href="#section_7">Contact</a></li>
+							href="#section_6">Contact</a></li>
 
 						<li class="nav-item"><a class="nav-link click-scroll"
-							href="#section_8">About Us</a></li>
+							href="#section_2">About Us</a></li>
+						<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+							role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="home.jsp">Quiz</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="purchase.jsp">Buy Courses</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">IDE</a>
+							</div>
+						</li>
 
 					</ul>
-
 					<a href="Login.jsp" class="btn custom-btn d-lg-block d-none">Login</a>
 				</div>
 			</div>
@@ -201,8 +230,8 @@
 						<div class="tab-content shadow-lg mt-5" id="nav-tabContent">
 							<div class="tab-pane fade show active" id="nav-ContactForm"
 								role="tabpanel" aria-labelledby="nav-ContactForm-tab">
-								<form class="custom-form contact-form mb-5 mb-lg-0" action="SendEmail"
-									method="post" role="form">
+								<form class="custom-form contact-form mb-5 mb-lg-0"
+									action="SendEmail" method="post" role="form">
 									<div class="contact-form-body">
 										<div class="row">
 											<div class="col-lg-6 col-md-6 col-12">
@@ -349,8 +378,12 @@
 	<script src="js/jquery.sticky.js"></script>
 	<script src="js/click-scroll.js"></script>
 	<script src="js/custom.js"></script>
-
-
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
 </body>
 </html>
 
