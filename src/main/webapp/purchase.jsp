@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
 <meta charset="UTF-8">
@@ -10,7 +9,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>LazyCoderz - Bootstrap 5 CSS Template</title>
+<title>LazyCoderz</title>
 
 <!-- CSS -->
 <link rel="stylesheet"
@@ -64,6 +63,8 @@ h3 {
 	font-size: 15px;
 }
 </style>
+</head>
+
 <body>
 	<!-- Header Section -->
 	<main>
@@ -285,7 +286,11 @@ h3 {
 						<li>Certificate of completion</li>
 					</ul>
 				</div>
-				<button class="buy-button">Buy Now</button>
+				<form action="purchase.jsp" method="post">
+					<input type="hidden" name="courseId" value="courseId123"> <input
+						type="hidden" name="action" value="add">
+					<a href="cart.jsp" class="buy-button">Buy Now</a>
+				</form>
 			</div>
 
 			<div class="course-card">
@@ -629,7 +634,7 @@ h3 {
 				</div>
 			</div>
 		</footer>
-
+		</main>
 		<script>
 		const accountBtn = document.querySelector('.account-btn');
 		const accountDropdown = document.querySelector('.account-dropdown');
