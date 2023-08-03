@@ -1,10 +1,9 @@
 @charset "ISO-8859-1";
-/* Global Styles */
+
 body {
 	font-family: Arial, sans-serif;
 }
 
-/* Header Section */
 header {
 	background-color: white;
 	color: #fff;
@@ -65,7 +64,7 @@ header {
 	margin-bottom: 5px;
 }
 
-/* Hero Section */
+
 .hero {
 	background-color: white;
 	color: #fff;
@@ -86,7 +85,7 @@ header {
 	border: none;
 }
 
-/* Course Categories */
+
 .categories {
 	padding: 20px;
 	background-color: white;
@@ -123,7 +122,7 @@ header {
 	text-decoration: none;
 }
 
-/* Course Listing */
+
 .course-listing h2 {
 	font-size: 24px;
 	margin-bottom: 20px;
@@ -167,7 +166,7 @@ header {
 	color: #262626;
 }
 
-/* Shopping Cart */
+
 .shopping-cart {
 	position: fixed;
 	bottom: 20px;

@@ -10,9 +10,9 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>LazyCoderz - Bootstrap 5 CSS Template</title>
+<title>LazyCoderz</title>
 
-<!-- CSS FILES -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,7 +72,8 @@ h1 {
 				</div>
 			</div>
 		</header>
-		<!--  linking tag -->
+
+
 		<nav class="navbar navbar-expand-lg navbar-bg-navy">
 			<div class="container">
 				<button class="navbar-toggler" type="button"
@@ -105,7 +106,7 @@ h1 {
 					style="width: 100px; height: 100px; border-radius: 50%;"></a> <a
 					href="topic3.jsp"><img class="zoom-image" src="images/cpp.png" alt="Topic 3"
 					style="width: 100px; height: 100px; border-radius: 50%;"></a>
-				<!-- Add more topic images as needed -->
+
 			</div>
 		</section>
 
@@ -194,7 +195,7 @@ h1 {
 					<div class="col-lg-3 col-12 mt-5">
 						<p class="copyright-text">Copyright © 2036 LazyCoderz_Company</p>
 						<p class="copyright-text">
-							About the Author: <a href="https://themewagon.com">AryaSimplex</a>
+							About the Author: <a href="portfolio.jsp">AryaSimplex</a>
 						</p>
 					</div>
 

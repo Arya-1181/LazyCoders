@@ -19,17 +19,17 @@ public class CompileServlet extends HttpServlet {
   protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     String code = request.getParameter("code");
 
-    // Compile the code using g++
+
     ProcessBuilder processBuilder = new ProcessBuilder("g++", "-x", "c++", "-o", "compiled/Main", "-");
     Process process = processBuilder.start();
 
-    // Get the output stream of the process
+
     OutputStream outputStream = process.getOutputStream();
     outputStream.write(code.getBytes());
     outputStream.flush();
     outputStream.close();
 
-    // Wait for the compilation to finish
+
     int exitCode;
     try {
       exitCode = process.waitFor();
@@ -37,7 +37,7 @@ public class CompileServlet extends HttpServlet {
       exitCode = -1;
     }
 
-    // Get the compilation output
+
     StringBuilder compilationOutput = new StringBuilder();
     BufferedReader reader = new BufferedReader(new InputStreamReader(process.getErrorStream()));
     String line;
@@ -45,7 +45,7 @@ public class CompileServlet extends HttpServlet {
       compilationOutput.append(line).append(System.lineSeparator());
     }
 
-    // Return the compilation result
+
     if (exitCode == 0) {
       response.getWriter().print("Compilation successful.");
     } else {

@@ -1,4 +1,4 @@
-// Dropdown menu functionality
+// Dropdown menu
 const accountBtn = document.querySelector('.account-btn');
 const accountDropdown = document.querySelector('.account-dropdown');
 

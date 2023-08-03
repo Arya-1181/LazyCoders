@@ -22,6 +22,7 @@
 		<h1>
 			Aman Arya <br> <span>[ Java Developer ]</span>
 		</h1>
+		
 	</header>
 
 	<section class="top-section">
@@ -33,6 +34,7 @@
 				<li><a href="#service">Services</a></li>
 				<li><a href="#project">Work</a></li>
 				<li><a href="#contact">Contact</a></li>
+				<li><a href="https://drive.google.com/file/d/1P1fZCIymkbDIjYRP8B3mvHLV4uieh9Le/view?usp=drive_link" class="download-button">Resume</a></li>
 			</ul>
 		</nav>
 	</section>
@@ -356,10 +358,11 @@
         <div class="social-links">
           <h3>Follow Me</h3>
           <ul class="social-list">
-            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/aman.arya.9822924/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/aman-arya-92ba80178/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://github.com/Arya-1181" target="_blank"><i class="fab fa-github"></i></a></li>
+            
           </ul>
         </div>
       </div>

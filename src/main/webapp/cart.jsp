@@ -12,7 +12,7 @@
 
 <title>LazyCoderz</title>
 
-<!-- CSS -->
+
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
 
@@ -50,13 +50,12 @@
 }
 
 .dropdown-item {
-	color: #FFFAFA; /* Change the text color on hover */
+	color: #FFFAFA;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
 	background-color: #ffc107;
-	/* Change the background color on hover and focus */
-	color: #FF4500; /* Change the text color on hover and focus */
+	color: #FF4500;
 }
 
 .site-header {
@@ -198,7 +197,7 @@ width
 				</div>
 			</div>
 		</header>
-		<!--  linking tag -->
+		<!--  navbar -->
 		<nav class="navbar navbar-expand-lg navbar-bg-navy">
 			<div class="container">
 				<button class="navbar-toggler" type="button"

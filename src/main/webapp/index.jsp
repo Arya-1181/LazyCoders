@@ -9,9 +9,9 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>LazyCoderz - Bootstrap 5 CSS Template</title>
+<title>LazyCoderz </title>
 
-<!-- CSS -->
+
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
 <link
@@ -49,7 +49,7 @@ h3 {
 	font-size: 15px;
 }
 
-/* Additional styles for the updated design */
+
 body {
 	font-family: 'Outfit', sans-serif;
 }
@@ -329,7 +329,7 @@ body {
 		</div>
 	</footer>
 
-	<!-- JavaScript -->
+
 	<script
 		src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

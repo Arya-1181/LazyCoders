@@ -14,9 +14,9 @@
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 
-<title>LazyCoderz - Bootstrap 5 CSS Template</title>
+<title>LazyCoderz</title>
 
-<!-- CSS FILES -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -217,7 +217,7 @@ input[type="submit"] {
             var form = document.getElementById("quizForm");
             var score = 0;
             var answers = [];
-            // Get selected answers and calculate the score
+
             var q1Answer = form.elements["q1"].value;
             if (q1Answer === "a") {
                 score++;
@@ -268,9 +268,7 @@ input[type="submit"] {
                 score++;
             }
 
-            // Repeat the above logic for the remaining questions
 
-            // Create a pop-up div to display the result
             var popup = document.createElement("div");
             popup.setAttribute("class", "popup");
             var popupInner = document.createElement("div");
@@ -289,11 +287,11 @@ input[type="submit"] {
             popupInner.appendChild(btnContainer);
             popup.appendChild(popupInner);
 
-            // Append the pop-up div to the quiz container
+
             var quizContainer = document.getElementById("quizContainer");
             quizContainer.appendChild(popup);
 
-            // Show the pop-up
+
             popup.classList.add("show");
         }
 
@@ -321,7 +319,7 @@ input[type="submit"] {
 				</div>
 			</div>
 		</header>
-		<!--  linking tag -->
+
 		<nav class="navbar navbar-expand-lg navbar-bg-navy">
 			<div class="container">
 				<button class="navbar-toggler" type="button"
@@ -493,7 +491,7 @@ input[type="submit"] {
 						</label>
 					</div>
 				</div>
-				<!-- Repeat the above structure for the remaining questions -->
+
 
 				<input class="submit-button" type="button" value="Submit" onclick="showResult()">
 			</form>

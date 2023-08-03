@@ -10,9 +10,9 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>LazyCoderz - Bootstrap 5 CSS Template</title>
+<title>LazyCoderz</title>
 
-<!-- CSS -->
+
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -41,13 +41,17 @@
 }
 
 .dropdown-item {
-    color: #FFFAFA; /* Change the text color on hover */
+    color: #FFFAFA;
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-    background-color: #ffc107; /* Change the background color on hover and focus */
-    color: #FF4500; /* Change the text color on hover and focus */
+    background-color: #ffc107;
+    color: #FF4500;
+}
+
+.site-header{
+background-color: #0000000;
 }
 
 </style>
@@ -68,7 +72,7 @@
 				</div>
 			</div>
 		</header>
-		<!--  linking tag -->
+		<!--  Navbar area -->
 		<nav class="navbar navbar-expand-lg navbar-bg-navy">
 			<div class="container">
 				<button class="navbar-toggler" type="button"
@@ -352,7 +356,7 @@
 					<div class="col-lg-3 col-12 mt-5">
 						<p class="copyright-text">Copyright © 2036 LazyCoderz_Company</p>
 						<p class="copyright-text">
-							About the Author: <a href="https://themewagon.com">AryaSimplex</a>
+							About the Author: <a href="Portfolio/portfolio.jsp">AryaSimplex</a>
 						</p>
 					</div>
 

@@ -1,6 +1,5 @@
 @charset "ISO-8859-1";
-/* Course Details Section */
-/* Course Details Section */
+
 .course-details {
 	display: flex;
 	align-items: center;
@@ -15,13 +14,13 @@
 }
 
 .course-image {
-	flex: 0 0 200px; /* Set the width of the image container */
+	flex: 0 0 200px;
 	margin-right: 20px;
 }
 
 .course-image img {
 	width: 100%;
-	border-radius: 8px; /* Smooth border radius */
+	border-radius: 8px;
 }
 
 .course-desc {
@@ -41,7 +40,7 @@
 	color: white;
 }
 
-/* About Section */
+
 .about-section {
 	text-align: center;
 	margin-bottom: 40px;
@@ -72,7 +71,7 @@
 	margin-bottom: 5px;
 }
 
-/* Course Description Section */
+
 .course-description {
 	padding: 80px 0;
 	background-color: #ffffff;

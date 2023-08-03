@@ -11,12 +11,14 @@
 <meta name="author" content="">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<title>LazyCoderz - Bootstrap 5 CSS Template</title>
+<title>LazyCoderz</title>
 
-<!-- CSS FILES -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="stylesheet" href="alert/dist/sweetalert.css">
 
 <link
 	href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap"
@@ -35,15 +37,13 @@
 
 <style>
 .navbar-bg-navy {
-  background-color: #09091B;
+	background-color: #09091B;
 }
 </style>
 
 
 </head>
 <body>
-	<input type="hidden" id="status"
-		value="<%=request.getAttribute("status")%>">
 	<main>
 
 		<header class="site-header">
@@ -52,16 +52,14 @@
 					<div class="col-lg-12 col-12 d-flex flex-wrap">
 						<p class="d-flex me-4 mb-0">
 							<img src="images/favicon.png" alt="icon description">
-						<center>
 							<strong class="text-dark">Welcome to LazyCoderz</strong>
-						</center>
 						</p>
 					</div>
 
 				</div>
 			</div>
 		</header>
-		<!--  linking tag -->
+
 		<nav class="navbar navbar-expand-lg navbar-bg-navy">
 			<div class="container">
 				<button class="navbar-toggler" type="button"
@@ -82,7 +80,7 @@
 				</div>
 			</div>
 		</nav>
-		<!-- video and footer tag -->
+
 
 		<section class="vh-100" style="background-color: #000000;">
 			<div id="message"></div>
@@ -99,7 +97,7 @@
 								<div class="col-md-6 col-lg-7 d-flex align-items-center">
 									<div class="card-body p-4 p-lg-5 text-black">
 
-										<form action="LoginServ" method="post">
+										<form action="login" method="post">
 
 											<div class="d-flex align-items-center mb-3 pb-1">
 												<i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
@@ -111,14 +109,14 @@
 
 											<div class="form-outline mb-4">
 												<input type="email" id="uemail" name="uemail"
-													class="form-control form-control-lg" placeholder="Email"/> <label
-													class="form-label" for="uemail"></label>
+													class="form-control form-control-lg" placeholder="Email" />
+												<label class="form-label" for="uemail"></label>
 											</div>
 
 											<div class="form-outline mb-4">
 												<input type="password" id="upwd" name="upwd"
-													class="form-control form-control-lg" placeholder="Password"/> <label
-													class="form-label" for="upwd"></label>
+													class="form-control form-control-lg" placeholder="Password" />
+												<label class="form-label" for="upwd"></label>
 											</div>
 
 											<div class="pt-1 mb-4">
@@ -127,8 +125,8 @@
 
 											<a class="small text-muted" href="#!">Forgot password?</a>
 											<p class="mb-5 pb-lg-2" style="color: #000000;">
-												Don't have an account? <a href="Register.jsp" style="color: #393f86; type: bold">Register
-													here</a>
+												Don't have an account? <a href="Register.jsp"
+													style="color: #393f86; type: bold">Register here</a>
 											</p>
 											<a href="#!" class="small text-muted">Terms of use.</a> <a
 												href="#!" class="small text-muted">Privacy policy</a>
@@ -142,23 +140,6 @@
 				</div>
 			</div>
 		</section>
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<script>
-			$(document).ready(
-					function() {
-						var status = "${status}";
-						if (status === "failed") {
-							$("#message").html(
-									"Invalid credentials. Please try again.")
-									.addClass("alert alert-danger").show();
-						}
-					});
-		</script>
-
-		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="js/main.js"></script>
-		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-		<link rel="stylesheet" href="alert/dist/sweetalert.css">
 
 	</main>
 	<footer class="site-footer">
@@ -199,7 +180,7 @@
 
 	<script type="text/javascript">
 		var status = document.getElementById("status").value;
-		if (status == "success") {
+		if (status == "failed") {
 			swal("Sorry", "Wrong Username or Password", "error");
 		}
 	</script>

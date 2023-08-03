@@ -11,7 +11,7 @@
 
 <title>LazyCoderz</title>
 
-<!-- CSS -->
+
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
 
@@ -44,13 +44,12 @@
 }
 
 .dropdown-item {
-	color: #FFFAFA; /* Change the text color on hover */
+	color: #FFFAFA;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
 	background-color: #ffc107;
-	/* Change the background color on hover and focus */
-	color: #FF4500; /* Change the text color on hover and focus */
+	color: #FF4500;
 }
 
 h2 {
@@ -66,7 +65,7 @@ h3 {
 </head>
 
 <body>
-	<!-- Header Section -->
+
 	<main>
 		<header class="site-header">
 			<div class="container">
@@ -81,7 +80,7 @@ h3 {
 				</div>
 			</div>
 		</header>
-		<!--  linking tag -->
+
 		<nav class="navbar navbar-expand-lg navbar-bg-navy">
 			<div class="container">
 				<button class="navbar-toggler" type="button"
@@ -115,7 +114,6 @@ h3 {
 			</div>
 		</section>
 
-		<!-- Hero Section -->
 
 		<section id="home">
 			<div class="container">
@@ -165,7 +163,6 @@ h3 {
 
 
 
-		<!-- Course Categories -->
 		<section class="categories">
 			<h2>Course Categories</h2>
 			<div class="slider-container">
@@ -266,7 +263,7 @@ h3 {
 		<div class="course-header">
 			<h2>All Courses</h2>
 		</div>
-		<!-- Course Listing -->
+
 		<section class="course-listing" id="course"
 			style="background-color: white; padding: 20px;">
 			<div class="course-card">
@@ -419,11 +416,9 @@ h3 {
 				<button class="buy-button">Buy Now</button>
 			</div>
 
-			<!-- Repeat the course card for each course -->
 		</section>
 
 
-		<!-- Shopping Cart -->
 		<section class="shopping-cart" style="background-color: white;">
 			<a href="#" class="cart-icon">
 				<button class="cart-button">
@@ -530,7 +525,7 @@ h3 {
 			</div>
 		</section>
 
-		<!-- Footer Section -->
+
 		<footer class="site-footer">
 			<div class="site-footer-top">
 				<div class="container">

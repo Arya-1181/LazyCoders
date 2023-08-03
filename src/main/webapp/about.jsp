@@ -10,9 +10,9 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>LazyCoderz - Bootstrap 5 CSS Template</title>
+<title>LazyCoderz</title>
 
-<!-- CSS FILES -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,7 +49,7 @@
 				</div>
 			</div>
 		</header>
-		<!--  linking tag -->
+		<!--  navbar -->
 		<nav class="navbar navbar-expand-lg navbar-bg-navy">
 			<div class="container">
 				<button class="navbar-toggler" type="button"

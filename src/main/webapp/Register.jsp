@@ -11,9 +11,9 @@
 <meta name="author" content="">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<title>LazyCoderz - Bootstrap 5 CSS Template</title>
+<title>LazyCoderz </title>
 
-<!-- CSS FILES -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,32 +35,6 @@
 
 
 <style>
-.gradient-custom-3 {
-	/* fallback for old browsers */
-	background: #84fab0;
-	/* Chrome 10-25, Safari 5.1-6 */
-	background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5),
-		rgba(143, 211, 244, 0.5));
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background: linear-gradient(to right, rgba(132, 250, 176, 0.5),
-		rgba(143, 211, 244, 0.5))
-}
-
-.gradient-custom-4 {
-	/* fallback for old browsers */
-	background: #84fab0;
-	/* Chrome 10-25, Safari 5.1-6 */
-	background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1),
-		rgba(143, 211, 244, 1));
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background: linear-gradient(to right, rgba(132, 250, 176, 1),
-		rgba(143, 211, 244, 1))
-}
-
-section.vh-100 {
-	background-color: black;
-}
-
 .card {
 	border: 1px solid orange;
 }
@@ -74,9 +48,6 @@ section.vh-100 {
 
 </head>
 <body>
-
-	<input type="hidden" id="status"
-		value="<%=request.getAttribute("status")%>">
 	<main>
 
 		<header class="site-header">
@@ -94,7 +65,7 @@ section.vh-100 {
 				</div>
 			</div>
 		</header>
-		<!--  linking tag -->
+
 		<nav class="navbar navbar-expand-lg navbar-bg-navy">
 			<div class="container">
 				<button class="navbar-toggler" type="button"
@@ -115,7 +86,7 @@ section.vh-100 {
 				</div>
 			</div>
 		</nav>
-		<!-- video and footer tag -->
+
 
 		<section class="vh-100" style="background-color: #000000; padding: 20px;">
 			<div class="container h-100" style="margin-bottom: 200px;">
@@ -199,24 +170,6 @@ section.vh-100 {
 				</div>
 			</div>
 		</section>
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<script>
-			$(document).ready(
-					function() {
-						var status = "${status}";
-						if (status === "failed") {
-							$("#message").html(
-									"Invalid credentials. Please try again.")
-									.addClass("alert alert-danger").show();
-						}
-					});
-		</script>
-
-		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="js/main.js"></script>
-		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-		<link rel="stylesheet" href="alert/dist/sweetalert.css">
-
 	</main>
 	<footer class="site-footer">
 

@@ -9,9 +9,9 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>LazyCoderz - Bootstrap 5 CSS Template</title>
+<title>LazyCoderz </title>
 
-<!-- CSS FILES -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +32,7 @@
 }
 
 section {
-	background-color: #000000; /* Replace with the color of your choice */
+	background-color: #000000;
 }
 
 ul {
@@ -65,7 +65,7 @@ ul li {
 			</div>
 		</header>
 
-		<!--  linking tag -->
+
 		<nav class="navbar navbar-expand-lg navbar-bg-navy">
 			<div class="container">
 				<button class="navbar-toggler" type="button"
